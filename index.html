@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab3</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav__container">
+                <div class="nav__header">
+                    <button class="button nav__create">
+              <a class="nav__create" href="create.html">Create dress</a>
+              <button class="button nav__sort" id="sort-button">
+                Sort by size
+              </button>
+                    </button>
+                </div>
+
+                <div class="nav__configuration">
+                    <button class="button nav__count" id="count-button">
+              Count total price
+            </button>
+                    <div id="count-price" class="nav__counter"></div>
+                </div>
+
+                <form class="nav__search" id="search-form">
+                    <input class="nav__search-input" type="text" id="search-input" placeholder="Enter brand name" />
+                    <button id="search-button" class="button nav__button" type="submit">
+              Search
+            </button>
+                    <button id="cancel-button" class="button nav__button" type="submit">
+              Cancel
+            </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <ul class="item__container" id="items-container"></ul>
+    </section>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

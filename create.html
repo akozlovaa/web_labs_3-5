@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="creation__container">
+            <a href="index.html">Back</a>
+
+            <form id="form">
+                <h1>Create dress</h1>
+                <label for="input">bankName</label>
+                <input class="creation__input" type="text" id="bankName-input" />
+                <label for="input">issueYear</label>
+                <input class="creation__input" type="number" id="issueYear-input" />
+                <label for="input">customerName</label>
+                <input class="creation__input" type="text" id="customerName-input" />
+                <label for="input">interestRateInPercents</label>
+                <input class="creation__input" type="number" id="interestRateInPercents-input" />
+                <label for="input">planName</label>
+                <input class="creation__input" list="planName" id="planName-input" />
+                <label for="input">maintenanceFeeInUsD</label>
+                <input class="creation__input" list="number" id="maintenanceFeeInUsD-input" />
+                <label for="input">serviceType</label>
+                <input class="creation__input" list="serviceType" id="serviceType-input" />
+                <label for="input">depositAmountInUsD</label>
+                <input class="creation__input" list="number" id="depositAmountInUsD-input" />
+
+                <button id="submit-button" type="submit">Submit</button>
+            </form>
+
+
+            <datalist id="planName">
+          <option value="silver"></option>
+          <option value="gold"></option>
+          <option value="platinum"></option>
+        </datalist>
+
+            <datalist id="serviceType">
+          <option value="investmnent"></option>
+          <option value="commercial"></option>
+        </datalist>
+
+        </div>
+    </div>
+    <script type="module" src="js/create.js"></script>
+</body>
+
+</html>

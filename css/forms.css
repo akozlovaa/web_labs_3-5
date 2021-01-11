@@ -1,0 +1,16 @@
+.creation__input,
+.edit__input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.creation__container,
+.edit__container {
+  margin: 0 auto;
+  max-width: 70%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

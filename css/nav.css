@@ -1,0 +1,31 @@
+header {
+  background-color: #ebeef0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.nav__container {
+  padding: 20px 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__header {
+  display: flex;
+  align-items: center;
+}
+
+.nav__name h4 {
+  margin: 0;
+}
+
+.nav__configuration {
+  display: flex;
+}
+
+.nav__counter {
+  border: 1px solid black;
+  padding: 12px 40px;
+  cursor: pointer;
+}
